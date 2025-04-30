@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "name": "Aaron Maxwell",
+      "country": "Australia",
+      "player_type": "Batsman",
+      "rating": 85,
+      "handed": "Left-Handed",
+      "price": 1200000,
+      "image": "https://i.ibb.co.com/xqhcH7ZM/Screenshot-2025-04-30-012732.png"
+    },
+    {
+      "id": 2,
+      "name": "Rohan Verma",
+      "country": "India",
+      "player_type": "All-Rounder",
+      "rating": 92,
+      "handed": "Right-Handed",
+      "price": 1800000,
+      "image": "https://i.ibb.co.com/TM7kjHXY/Screenshot-2025-04-30-012745.png"
+    },
+    {
+      "id": 3,
+      "name": "Oliver Grant",
+      "country": "England",
+      "player_type": "Wicket-keeper",
+      "rating": 78,
+      "handed": "Right-Handed",
+      "price": 950000,
+      "image": "https://i.ibb.co.com/9HcKXN7z/Screenshot-2025-04-30-012759.png"
+
+    },
+    {
+      "id": 4,
+      "name": "Thabo Peterson",
+      "country": "South Africa",
+      "player_type": "Batsman",
+      "rating": 88,
+      "handed": "Right-Handed",
+      "price": 1350000,
+      "image": "https://i.ibb.co.com/1fLVNc5B/Screenshot-2025-04-30-012808.png"
+    },
+    {
+      "id": 5,
+      "name": "Imran Saeed",
+      "country": "Pakistan",
+      "player_type": "All-Rounder",
+      "rating": 89,
+      "handed": "Left-Handed",
+      "price": 1650000,
+      "image": "https://i.ibb.co.com/wHgsMvr/Screenshot-2025-04-30-013003.png"
+    },
+    {
+      "id": 6,
+      "name": "Logan Walsh",
+      "country": "New Zealand",
+      "player_type": "Wicket-keeper",
+      "rating": 82,
+      "handed": "Left-Handed",
+      "price": 1100000,
+      "image": "https://i.ibb.co.com/TByP4HVM/Screenshot-2025-04-30-012908.png"
+    },
+    {
+      "id": 7,
+      "name": "Dwayne Carter",
+      "country": "West Indies",
+      "player_type": "Batsman",
+      "rating": 75,
+      "handed": "Right-Handed",
+      "price": 800000,
+      "image": "https://i.ibb.co.com/jZ61S0Tk/Screenshot-2025-04-30-012924.png"
+    },
+    {
+      "id": 8,
+      "name": "Nuwan Perera",
+      "country": "Sri Lanka",
+      "player_type": "All-Rounder",
+      "rating": 86,
+      "handed": "Right-Handed",
+      "price": 1450000,
+      "image": "https://i.ibb.co.com/RkSb6cJW/Screenshot-2025-04-30-012949.png"
+    },
+    {
+      "id": 9,
+      "name": "Tamim Rahman",
+      "country": "Bangladesh",
+      "player_type": "Wicket-keeper",
+      "rating": 79,
+      "handed": "Right-Handed",
+      "price": 900000,
+      "image": "https://i.ibb.co.com/3Y9TCrft/Screenshot-2025-04-30-013015.png"
+    },
+    {
+      "id": 10,
+      "name": "Rahim Noor",
+      "country": "Afghanistan",
+      "player_type": "Batsman",
+      "rating": 81,
+      "handed": "Left-Handed",
+      "price": 1050000,
+      "image": "https://i.ibb.co.com/3Y9TCrft/Screenshot-2025-04-30-013015.png"
+    },
+    {
+      "id": 11,
+      "name": "Liam O'Brien",
+      "country": "Ireland",
+      "player_type": "All-Rounder",
+      "rating": 77,
+      "handed": "Left-Handed",
+      "price": 850000,
+      "image":"https://i.ibb.co.com/210x1f7P/Screenshot-2025-04-30-013026.png"
+    },
+    {
+      "id": 12,
+      "name": "Tinashe Moyo",
+      "country": "Zimbabwe",
+      "player_type": "Wicket-keeper",
+      "rating": 76,
+      "handed": "Right-Handed",
+      "price": 750000,
+      "image": "https://i.ibb.co.com/sJ9s4cFg/Screenshot-2025-04-30-013052.png"
+    }
+  ]
+  

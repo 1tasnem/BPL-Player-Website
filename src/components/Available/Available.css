@@ -1,0 +1,11 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards side by side */
+    width:1000px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 100px;
+    gap:20px;
+
+   
+  }

@@ -1,0 +1,60 @@
+
+.main{
+    
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 500px;
+overflow: hidden;
+width:1400px;
+background-color: #000;
+margin: 20px;
+margin-left: 50px;
+border-radius: 8px;
+}
+
+.item{
+    position: relative;
+    min-height: 100vh;
+}
+  
+.content-card {
+    position: absolute;
+    text-align: center;
+    
+  }
+  .logo {
+    width: 250px;
+  margin-bottom: 20px;
+ margin-left: 300px;
+  height: 250px;
+  
+  
+  }
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+ 
+   
+  }
+  
+  .subtitle {
+    font-size: 24px;
+    color: #bbb;
+    margin-bottom: 24px;
+  }
+  
+  .cta-button {
+    background-color: #facc15;
+    color: black;
+    font-weight: bold;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+ 
