@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './Available.css'
 import SingleProduct from '../SingleProduct/SingleProduct';
 
-const Available = () => {
+const Available = ({handleSelectedPlayer}) => {
     const[available,setAvailable] = useState([]);
     useEffect (()=>{
         fetch("./fake.json")
@@ -10,13 +10,17 @@ const Available = () => {
     .then(data =>setAvailable(data))
     },[])
     return (
+        <div>
+            <h2 className='text-2xl'>Available Players</h2>
+    
         <div className='card-container'>
-            
+           
             {available.map((p) => (
-      <SingleProduct key={p.id} player={p} />
+      <SingleProduct handleSelectedPlayer={handleSelectedPlayer} key={p.id} player={p} />
     ))}
             
         </div>
+         </div>
     );
 };
 

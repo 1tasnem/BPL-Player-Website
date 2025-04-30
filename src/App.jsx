@@ -42,6 +42,25 @@ function App() {
   }
  }
 
+
+ const [selectedPlayer,setSelectedplayers] = useState([]);
+
+const handleSelectedPlayer = (player) =>{
+const isexist = selectedPlayer.find((p) => p.name == player.name)
+  //console.log(product);
+  if(isexist){
+    alert("Already Added")
+  }
+  else{
+   // console.log("naiiiii")
+   //handleIncreasePrice(product.price);
+    const newPlayer = [...selectedPlayer,player]
+    setSelectedplayers(newPlayer);
+  }
+ 
+}
+//console.log(selectedPlayer)
+
   return (
     <>
       
@@ -49,7 +68,7 @@ function App() {
       <Navbar coins={coins} handlecoins={handlecoins} ></Navbar>
       
       <ToastContainer />
-      <Cardcontainer isActive={isActive} handleIsActiveState={handleIsActiveState}></Cardcontainer>
+      <Cardcontainer isActive={isActive} handleIsActiveState={handleIsActiveState} handleSelectedPlayer={handleSelectedPlayer} selectedPlayer={selectedPlayer}></Cardcontainer>
     
      
     </>

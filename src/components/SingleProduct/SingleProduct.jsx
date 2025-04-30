@@ -1,7 +1,8 @@
 import React from 'react';
 import './SingleProduct.css'
 
-const SingleProduct = ({player}) => {
+const SingleProduct = ({player,handleSelectedPlayer}) => {
+    console.log(handleSelectedPlayer)
     //console.log(player)
     const {image,name,country,player_type,handed,price} = player;
     return (
@@ -15,18 +16,18 @@ const SingleProduct = ({player}) => {
               
             </div>
             
-                <div className='flex justify-between -mt-10 text-gray-400 mb-2 border-b-2'>
+                <div className='flex text-sm justify-between -mt-10 text-gray-400 mb-2 border-b-2'>
                  <p><i class="fa-solid fa-flag"></i>  {country}</p> 
                     <button  className='btn text-gray-400'>{player_type}</button>
                 </div>
                 <h2 className='font-bold text-lg text-left'>Rating</h2>
-                <div className='flex justify-between'> 
+                <div className='flex justify-between text-sm'> 
                     <h3 className='font-bold'>{handed}</h3>
                     <p className='text-gray-400'>{handed}</p>
                 </div>
-                <div className='flex justify-between'>
+                <div className='flex justify-between text-sm'>
                     <h2 className='font-bold mt-2'>Price:${price}</h2>
-                    <button className='btn text-gray-800'>Choose Player</button>
+                    <button onClick={() => handleSelectedPlayer(player)} className='btn text-gray-800'>Choose Player</button>
                 </div>
               
             </div>
