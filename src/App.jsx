@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Cardcontainer from './components/cardcontainer/cardcontainer';
 import Navbar from './components/Navbar/Navbar'
 import Available from './components/Available/Available';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -131,7 +132,7 @@ const handleDelete = (name)=>{
     
       
       ></Cardcontainer>
-     
+     <Footer></Footer>
     
      
     </>
