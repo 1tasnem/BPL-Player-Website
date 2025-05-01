@@ -48,4 +48,4 @@ This app is designed with modern UI practices and is fully responsive for variou
   Stylish subscription card above the footer for users to subscribe to latest updates.
 
 ---
-Netlify:
+Netlify:soft-kitten-1492a0.netlify.app
