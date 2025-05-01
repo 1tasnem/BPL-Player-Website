@@ -1,12 +1,51 @@
-# React + Vite
+# 🏏 BPL Dream Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application that allows users to assemble their ultimate Dream 11 cricket team by selecting players, managing virtual coins, and subscribing for updates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Description
 
-## Expanding the ESLint configuration
+**BPL Dream Website** is a React-based application styled with Tailwind CSS. It allows users to:
+- Browse through a list of available cricket players
+- Select up to 6 players to build a fantasy team
+- Track the cost of each player and deduct from a virtual coin balance
+- Delete previously selected players to free up budget
+- Subscribe to a newsletter for updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This app is designed with modern UI practices and is fully responsive for various screen sizes.
+
+---
+
+## 🧰 Technologies Used
+
+- ⚛️ React.js
+- 💨 Tailwind CSS
+- 🍞 React Toastify (for user notifications)
+- 🔀 JavaScript ES6+
+- 🧱 Surge (for deployment)
+
+---
+
+## 🚀 Key Features
+
+- ✅ **Player Selection**  
+  Choose players from a dynamic list with name, photo, price, and handedness.
+
+- 💰 **Coin Management System**  
+  Initial balance provided — each player costs virtual coins. Selecting a player deducts the price. Removing a player refunds it.
+
+- ❌ **Prevent Duplicate / Over-limit Selection**  
+  Players cannot be added more than once, and a maximum of 6 can be selected.
+
+- 🔄 **Delete Player**  
+  Easily remove a player from your selected team and regain coins.
+
+- 🔔 **Toast Notifications**  
+  Feedback provided for every action — player added, removed, not enough coins, or selection limit reached.
+
+- 📩 **Newsletter Section**  
+  Stylish subscription card above the footer for users to subscribe to latest updates.
+
+---
+Netlify:
