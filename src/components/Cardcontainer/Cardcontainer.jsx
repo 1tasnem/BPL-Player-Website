@@ -1,14 +1,19 @@
+
+
+
 import Available from '../Available/Available';
 import Selected from '../Selected/Selected';
 import './cardcontainer.css'
 
-const cardcontainer = ({isActive,handleIsActiveState,handleSelectedPlayer,selectedPlayer}) => {
+
+const cardcontainer = ({isActive,handleIsActiveState,handleSelectedPlayer,selectedPlayer,handleDelete,handleIncreasePrice}) => {
+   
     return (
         <div>
-        <div className='flex justify-between p-4 m-10 font-bold text-xl'>
-        {isActive.Available ? <Available handleSelectedPlayer={handleSelectedPlayer}></Available>:
+        <div className='flex justify-between p-4 m-10 mb-10 font-bold text-xl'>
+        {isActive.Available ? <Available handleSelectedPlayer={handleSelectedPlayer} handleIncreasePrice={handleIncreasePrice}  ></Available>:
        
-       <Selected selectedPlayer={selectedPlayer}></Selected>}
+       <Selected selectedPlayer={selectedPlayer} handleDelete={handleDelete} handleIsActiveState={handleIsActiveState} ></Selected>}
            
             <div className=''>
         <button onClick={() => {handleIsActiveState("Available")}}

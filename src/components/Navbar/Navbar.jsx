@@ -24,7 +24,7 @@ const Navbar = ({handlecoins,coins}) => {
     
    // console.log(coins)
     return (
-        <div>
+        <div className=''>
         <div className='flex justify-between w-11/12 mx-10 p-4 m-4'>
             <div>
                 <img src={logo} alt=""/>

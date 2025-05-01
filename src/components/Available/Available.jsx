@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import './Available.css'
 import SingleProduct from '../SingleProduct/SingleProduct';
 
-const Available = ({handleSelectedPlayer}) => {
+
+const Available = ({handleSelectedPlayer ,handleAddPlayer,handleIncreasePrice}) => {
     const[available,setAvailable] = useState([]);
     useEffect (()=>{
         fetch("./fake.json")
@@ -14,9 +15,12 @@ const Available = ({handleSelectedPlayer}) => {
             <h2 className='text-2xl'>Available Players</h2>
     
         <div className='card-container'>
-           
+        
             {available.map((p) => (
-      <SingleProduct handleSelectedPlayer={handleSelectedPlayer} key={p.id} player={p} />
+      <SingleProduct handleSelectedPlayer={handleSelectedPlayer}
+      handleAddPlayer={handleAddPlayer}
+      handleIncreasePrice = {handleIncreasePrice}
+      key={p.id} player={p} />
     ))}
             
         </div>

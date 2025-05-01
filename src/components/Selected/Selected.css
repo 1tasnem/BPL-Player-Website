@@ -1,0 +1,44 @@
+.add-button {
+    margin-top: 20px;
+    background-color: #f9ff00;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .selected-img{
+    width:100px;
+    
+  }
+  .card_p{
+       
+      background-color: #fafafa;
+     
+    display:flex;
+    
+     gap:5px;
+     
+     padding: 10px;
+     box-shadow: 5px 2px 5px 2px;
+     margin-top: 20px;
+
+     width: 1200px;
+     height: 100px;
+     align-items: center;
+     
+      
+    }
+  .play_text{
+    font-size:1.1rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+  
+  }
+  .text{
+    font-size: 0.9rem;
+  color: #888;
+  }

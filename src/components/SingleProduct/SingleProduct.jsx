@@ -1,10 +1,16 @@
 import React from 'react';
 import './SingleProduct.css'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const SingleProduct = ({player,handleSelectedPlayer}) => {
-    console.log(handleSelectedPlayer)
+   // console.log(handleSelectedPlayer)
     //console.log(player)
     const {image,name,country,player_type,handed,price} = player;
+
+  
+      
     return (
         <div>
         <div className='card'>
@@ -26,11 +32,19 @@ const SingleProduct = ({player,handleSelectedPlayer}) => {
                     <p className='text-gray-400'>{handed}</p>
                 </div>
                 <div className='flex justify-between text-sm'>
-                    <h2 className='font-bold mt-2'>Price:${price}</h2>
-                    <button onClick={() => handleSelectedPlayer(player)} className='btn text-gray-800'>Choose Player</button>
+                    <h2 className='text-gray-400 mt-2'>Price:${price}</h2>
+                    <button onClick={() => {handleSelectedPlayer(player)
+                    
+                    
+                     
+
+                    }} className='btn text-gray-800 hover:bg-yellow-300'>Choose Player</button>
                 </div>
               
             </div>
+            {
+  
+  }
             
         </div>
         
